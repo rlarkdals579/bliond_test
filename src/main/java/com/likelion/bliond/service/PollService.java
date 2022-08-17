@@ -28,7 +28,6 @@ public class PollService {
                 .id(poll.getId())
                 .title(poll.getTitle())
                 .content(poll.getContent())
-                .writer(poll.getWriter())
                 .createdDate(poll.getCreatedDate())
                 .modifiedDate(poll.getModifiedDate())
                 .build();
@@ -59,7 +58,6 @@ public class PollService {
                 .id(poll.getId())
                 .title(poll.getTitle())
                 .content(poll.getContent())
-                .writer(poll.getWriter())
                 .createdDate(poll.getCreatedDate())
                 .modifiedDate(poll.getModifiedDate())
                 .build();
